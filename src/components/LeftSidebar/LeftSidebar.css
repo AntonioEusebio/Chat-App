@@ -87,10 +87,19 @@
     border-radius: 5px;
     background-color: white;
     color: black;
+    display: none;
+
 }
 .sub-menu hr{
     border: none;
     height: 1px;
     background: #a4a4a4;
     margin: 8px 0px;
+}
+.sub-menu p{
+    cursor: pointer;
+    font-size: 14px;
+}
+.menu:hover .sub-menu{
+    display: block;
 }
