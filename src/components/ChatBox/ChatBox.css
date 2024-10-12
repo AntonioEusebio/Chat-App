@@ -93,7 +93,7 @@
     text-align: center;
     font-size: 9px;
 }
-.msg img{
+.msg-img{
     max-width: 230px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -113,4 +113,19 @@
     font-size: 20px;
     font-weight: 500;
     color: #383838;
+}
+.chat-user .arrow{
+    display: none;
+}
+@media (max-width:900px) {
+    .chat-box{
+        width: 100%;
+        justify-content: center;
+    }
+    .chat-user .arrow{
+        display: block;
+    }
+    .chat-user .help{
+        display: none;
+    }
 }
