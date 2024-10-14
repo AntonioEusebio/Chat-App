@@ -5,4 +5,4 @@ This Chat apllication uses React.js and Firebase Development Platform, where you
 Chat-App uses Firebase for:
 - Authentication;
 - Storage, to store images;
-- Firebase Database, to store the users and the chats between them;
+- Firestore Database, to store the users and the chats between them;
